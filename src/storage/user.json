@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "name": "Actor",
+    "movies": [
+        "Movie A",
+        "Movie B"
+    ],
+    "has_oscar": false,
+    "country": "A Country",
+    "created_date": "2006-02-01T10:00:00"
+}
