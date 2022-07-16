@@ -32,6 +32,7 @@ print("Slice all numbers", numbers[:])  # exclude first element
 print("Slice by two steps", numbers[0:5:2])  # start from index 0 till 5 => [1,4,6]
 print("Slice exclude last two", numbers[:-2])
 print("Slice first two", numbers[:2])
+print("Slice from second el", numbers[2:]) # from index 2 to end of list
 print("Slice with same index:index return nothing", numbers[2:2])
 
 # Add and remove element
