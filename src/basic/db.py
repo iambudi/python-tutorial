@@ -44,13 +44,14 @@ def show(data: List[Any]):
         return
 
     """
-    # result by default is list[tuple] so the data can be accessed by its col index
+    # query result by default is list[tuple] so the data can be accessed by its col index
     # which is not informative. row[0] for id, row[2] for name so on.
     # to access by col name then the result must be as list[dict]
     """
     print("=" * 30)
     print("\t".join(data[0].keys()))  # print header from dict keys
     print("=" * 30)
+    # dict access
     for row in data:
         print(f"{row['id']}\t{row['name']}\t{row['age']}")
 

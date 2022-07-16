@@ -41,16 +41,17 @@ To run manually on terminal: `python src/basic/file.py`
 |    8 | [Decorator](src/basic/decorator.py)                       | Extend function using Meta programming                                        |
 |    9 | [Data Class](src/basic/data_class.py)                     | Enhance class with special decorator                                          |
 |   10 | [Comprehension](src/basic/comprehension.py)               | Creating list based on based on existing list. For one liner lover :)         |
-|   11 | [Date Time](src/basic/date_time.py)                       | Date and Time manipulation and formatting                                     |
-|   12 | [Database](src/basic/db.py)                               | How to read and write from database                                           |
-|   13 | [Iterator](src/basic/iterator.py)                         | Traversing oject values                                                       |
-|   14 | [Generator](src/basic/generator.py)                       | Iterator in Lazy version                                                      |
-|   15 | [Asynchronous](src/basic/async_await.py)                  | Write concurrent code using asyncio                                           |
-|   16 | [Async Http Request](src/basic/async_await.py)            | Write asynchronous http request                                               |
-|   17 | [Serialization JSON](src/basic/serialization_json.py)     | Handle json data                                                              |
-|   18 | [Serialization Pickle](src/basic/serialization_pickle.py) | Serializing and de-serializing Python object structures                       |
-|   19 | [Multi Threading](src/basic/multi_threading.py)           | Pararrel processing using Multi Threading (MT) and Multi Process (MP)         |
-|   20 | [Regex](src/basic/regex.py)                               | Regular Expression                                                            |
+|   11 | [Functional Programming](src/basic/func_programming.py)               | Lambda, Closure, Map, Filter, Reduce         |
+|   12 | [Date Time](src/basic/date_time.py)                       | Date and Time manipulation and formatting                                     |
+|   13 | [Database](src/basic/db.py)                               | How to read and write from database                                           |
+|   14 | [Iterator](src/basic/iterator.py)                         | Traversing oject values                                                       |
+|   15 | [Generator](src/basic/generator.py)                       | Iterator in Lazy version                                                      |
+|   16 | [Asynchronous](src/basic/async_await.py)                  | Write concurrent code using asyncio                                           |
+|   17 | [Async Http Request](src/basic/async_await.py)            | Write asynchronous http request                                               |
+|   18 | [Serialization JSON](src/basic/serialization_json.py)     | Handle json data                                                              |
+|   19 | [Serialization Pickle](src/basic/serialization_pickle.py) | Serializing and de-serializing Python object structures                       |
+|   20 | [Multi Threading](src/basic/multi_threading.py)           | Pararrel processing using Multi Threading (MT) and Multi Process (MP)         |
+|   21 | [Regex](src/basic/regex.py)                               | Regular Expression                                                            |
 
 ## 4. Unit Test
 How to write [unit testing](src/testing/test_add.py) in python
