@@ -15,7 +15,8 @@ alias "pip=/opt/homebrew/opt/python@3.10/bin/pip3"
 
 * Install requirement packages used in this tutorial
   `pip install aiohttp more-itertools pytz`
-  [TODO] put it inside `requirement.txt`
+
+  **[TODO]** put it inside `requirement.txt`
 * Optional to enable python linting
 `pip install -U pylint` 
 
