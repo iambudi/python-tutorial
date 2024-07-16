@@ -40,7 +40,7 @@ To run manually on terminal: `python src/basic/file.py`
 |    7 | [Generic Class](src/basic/class_generic.py)               | Using generic data type in class                                              |
 |    8 | [Decorator](src/basic/decorator.py)                       | Extend function using Meta programming                                        |
 |    9 | [Data Class](src/basic/data_class.py)                     | Enhance class with special decorator                                          |
-|   10 | [Comprehension](src/basic/comprehension.py)               | Creating list based on based on existing list. For one liner lover :)         |
+|   10 | [Comprehension](src/basic/comprehension.py)               | Creating list based on existing list. For one liner lover :)         |
 |   11 | [Functional Programming](src/basic/func_programming.py)               | Lambda, Closure, Map, Filter, Reduce         |
 |   12 | [Date Time](src/basic/date_time.py)                       | Date and Time manipulation and formatting                                     |
 |   13 | [Database](src/basic/db.py)                               | How to read and write from database                                           |
