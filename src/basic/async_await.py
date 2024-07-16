@@ -55,9 +55,11 @@ def run_with_gather():
         print("task {} starting".format(id))
         await asyncio.sleep(sleep_time_sec)
         print("task {} finished".format(id))
+        return f"result {id}"
 
     async def main():
-        await asyncio.gather(task1(1), task1(2), task1(3))
+        results = await asyncio.gather(task1(1), task1(2), task1(3))
+        print(results)
 
     asyncio.run(main())
 
