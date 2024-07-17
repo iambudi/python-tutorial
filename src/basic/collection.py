@@ -1,5 +1,5 @@
-from typing import List, NamedTuple, Set
 from array import array
+from typing import List, NamedTuple, Set
 
 """
 Python non primitive data structure
@@ -32,7 +32,7 @@ print("Slice all numbers", numbers[:])  # exclude first element
 print("Slice by two steps", numbers[0:5:2])  # start from index 0 till 5 => [1,4,6]
 print("Slice exclude last two", numbers[:-2])
 print("Slice first two", numbers[:2])
-print("Slice from second el", numbers[2:]) # from index 2 to end of list
+print("Slice from second el", numbers[2:])  # from index 2 to end of list
 print("Slice with same index:index return nothing", numbers[2:2])
 
 # Add and remove element
@@ -100,11 +100,12 @@ register([user1, user2])
 """
 # 4. Array
 =========================================================================================
-Python does not have array as primitive data structure
-The primitive one belongs to NumPy module.
-+ compact and storage efficient.
-+ behave very much like lists,
-- objects stored is constrained (same typecode, not heterogeneous)
+Python does not have array as primitive data structure in the same sense as lists or tuples
+It's provided by the array module. In term of functionality similar to list.
++ compact and storage efficient (store their elements in a contiguous block of memory)
++ functionality: behave very much like lists
++ performance: faster for for numeric operations for large dataset
+- objects stored is constrained in single type (not heterogeneous)
 ========================================================================================
 typecode: i = signed int, I unsigned, f float, d double, b = char
 complete list of typecode
